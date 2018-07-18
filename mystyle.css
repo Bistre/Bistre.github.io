@@ -1,4 +1,11 @@
-.heading{color:red;}
+.heading {
+	color:red; visibility: visible;
+}
 body {
 	background: #efefef;
+}
+.m-fadeOut {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s linear 200ms opacity 200ms;
 }
